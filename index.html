@@ -1,0 +1,97 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="index.css">
+    
+    
+    
+    
+        <title>Umbrella</title>
+    </head>
+    <body>
+ <!-- Umbrella Image -->
+
+        <div class="content">
+           
+<div class="umbrella-img">
+   
+    <img src="./images/Blue umbrella.png" id="umbrella-img" alt=""/>
+    <img id="spinner"/>
+<img id="logo"/>
+
+
+
+</div>
+
+
+
+<div class="text-content">
+<h2>Custom Umbrella</h2>
+<div class="color-pallette">
+<button class="btn" id="blue" value="Blue"></button>
+<button class="btn" id="pink" value="Pink"></button>
+<button class="btn" id="yellow" value="Yellow"></button>
+
+</div>
+<div class="text-description">
+    <h5>Customize Your Umbrella</h5>
+    <p>Upload a logo for an instant preview
+        <br/>
+        .png and .jpg files only.Max file size is 5MB
+    </p>
+</div>
+<input type="file" id="fileInput" hidden  />
+<div class="upload-wrapper">
+  <button class="style-logo-btn">Style Logo</button>
+    <button class="upload-btn" >
+    <img src="./images/upload_icon.svg" class="upload-img" /> 
+    <span class="upload-logo-text" >Upload Logo</span>
+    <span  class="delete-btn" style="color:red;display: none;font-weight: bolder;font-size:x-large;" >X</span>
+</button>
+</div>
+
+
+
+</div>
+
+        </div>
+
+
+        
+        <!-- HTML effects to be applied  on logo-->
+        <div class="style-panel" id="stylePanel">
+  <div class="style-header">
+    <span>Logo Styling</span>
+    <button id="closeStylePanel" class="close-btn">X</button>
+  </div>
+
+  <div class="controls">
+    <label>Opacity</label>
+    <input type="range" id="opacityRange" min="0" max="1" step="0.05" value="1">
+
+    <label>Brightness</label>
+    <input type="range" id="brightnessRange" min="0.5" max="2" step="0.1" value="1">
+
+    <label>Contrast</label>
+    <input type="range" id="contrastRange" min="0.5" max="2" step="0.1" value="1">
+
+    <label>Grayscale</label>
+    <input type="range" id="grayRange" min="0" max="1" step="0.1" value="0">
+<br/>
+    <label>
+      <input type="checkbox" id="shadowToggle"> Drop Shadow
+    </label>
+
+    <label>
+      <input type="checkbox" id="borderToggle"> Border
+    </label>
+  </div>
+</div>
+
+
+        
+        <script src="index.js"></script>
+    </body>
+    </html>
