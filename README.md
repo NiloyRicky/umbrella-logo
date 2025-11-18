@@ -71,7 +71,7 @@ No frameworks, no build tools — plain front-end project
 
 
 📥 How to Use
-1️⃣ Clone the repo
+1️⃣ Clone the repo <br><br>
 git clone https://github.com/NiloyRicky/umbrella-logo.git
 
 2️⃣ Open the project
