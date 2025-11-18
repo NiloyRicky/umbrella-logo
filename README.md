@@ -10,7 +10,7 @@ Includes a smooth spinner animation while loading.
 
 Upload any image and it appears on the umbrella instantly.
 
-✅ 3. Real-Time Styling Effects (NEW 🔥)
+✅ 3. Real-Time Styling Effects (NEW feature added)
 
 A beautiful floating styling panel with sliders/buttons:
 
